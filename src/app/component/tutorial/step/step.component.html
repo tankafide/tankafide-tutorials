@@ -1,0 +1,7 @@
+<h2>{{step.subTitle}}</h2>
+
+<ul>
+    <li class="list-margin" *ngFor="let direction of step.directions">
+        <app-direction [direction] = "direction"></app-direction>
+    </li>
+</ul>
